@@ -1,3 +1,5 @@
+pending
+
 const REGEXP = /[\w]{1,} ^[_]/g ;
 
 function regex(str) {

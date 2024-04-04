@@ -1,3 +1,5 @@
+pending
+
 function longestMountainPass(mountains, E) {
     let indexMountain = []
 
