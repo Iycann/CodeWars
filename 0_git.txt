@@ -7,11 +7,16 @@ git push
 
 //Esta es la manera en que se crea un nuevo repositorio
 echo "# CodeWars" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/Iycann/CodeWars.git
-git push -u origin master
+git init // inicializa el git
+git add README.md -- ignorar
+git commit -m "first commit" // mandar un first commit
+git branch -M master // crea la branch y te lleva a ella
+git remote add origin https://github.com/Iycann/CodeWars.git // este commando hace que se comuniquen el archivo de git en el folder y el repositorio en linea 
+git push -u origin master // manda la informacion a la branch. este comando con -u solamente se pone la primera vez que haces un push. las demas veces solamente pones git push
 
 HICE UN CAMBIO EN ESTE ARCHIVO
+
+git branch // checar la lista de branches existentes
+git checkout nombreDeBranch // este te lleva al branch que le ponas el nombre dee
+git log // te enseña los commits que has hecho
+git checkout commitCode // te lleva al commit que le pones
