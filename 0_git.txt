@@ -1,0 +1,15 @@
+git status //Comando para ver cual es el status actual 
+git add . //Comndo para agregar con el . todos los archivos que tuvieron cambios
+git status
+git commit -m "mensaje del commit"
+git push -u origin (master, main, u otra branch)
+git push
+
+//Esta es la manera en que se crea un nuevo repositorio
+echo "# CodeWars" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Iycann/CodeWars.git
+git push -u origin main
