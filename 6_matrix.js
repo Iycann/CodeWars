@@ -1,17 +1,18 @@
-pending
-
 function matrix(matrixSquare) {
-    
-
+  
+  let matrixNew = 0
     for (let i = 0; i < matrixSquare.length; i++) {
       for (let j = 0; j < matrixSquare[i].length; j++) {
-        
-       } 
-      }
-  
+        if (i == j && (matrixSquare[i][j] < 0)) {
+          matrixSquare[i][j] = 0
+          } else {
+            if (i == j && matrixSquare[i][j] >= 0)
+            matrixSquare[i][j] = 1
+          }
+        }
     }
-    return replaceMatrix
-
+  return matrixSquare
+}
 
 console.log(matrix([
   [-1,  4, -5, -9,  3 ],
