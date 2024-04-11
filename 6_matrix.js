@@ -21,3 +21,5 @@ console.log(matrix([
   [ 1,  5, -7, -8, -9 ],
   [-3,  2,  1, -5,  6 ]
 ]))
+
+// Objetivo: Cambiar la diagonal principal, con las sig condiciones: si es neg ponerlo en 0 y todos los demas num a 0 incluyendo el 0
