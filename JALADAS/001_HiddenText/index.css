@@ -1,0 +1,15 @@
+*, body, html {
+background-color: grey;    
+}
+
+h1 {
+    color: blue;
+}
+
+.texto {
+    height: 80vh;
+    width: 90vw;
+    background-color: white;
+    
+}
+

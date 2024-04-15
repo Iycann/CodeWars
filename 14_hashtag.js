@@ -9,7 +9,7 @@ function generateHashtag (str) {
     }
 
     stringFixed = stringFixed.join("")
-
+    
     if (stringFixed.length == 0) {
         stringFixed = false
     } else if (stringFixed.length >= 140) {
@@ -21,4 +21,4 @@ function generateHashtag (str) {
      return stringFixed
 }
 
-console.log(generateHashtag("a".repeat(140)))
+console.log(generateHashtag("Codewars is nice"))
